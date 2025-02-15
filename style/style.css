@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body { background: #222831; color: #eee; font-family: "Poppins", serif; font-weight: 400; font-style: normal; font-size: 18px; }
+header .navbar {  }
+header .navbar a { color: #eee; font-size: 18px; }
+header .navbar-toggler { background: #eee; }
+.navbar-collapse.collapse.show { padding-top: 10px; }
+header .nav-link { transition: all .3s; }
+header .nav-link.active, header .nav-link:hover { color: #00ADB5 !important; }
+#section-01 { border-top: 1px solid rgb(237 237 237 / 10%); }
+#section-01 h1 { font-size: 96px; font-weight: 700; line-height: 1em; margin-bottom: 40px; }
+#section-01 h1 span { color: #00ADB5; }
+#section-02 { border-bottom: 1px solid rgb(237 237 237 / 10%); }
+#section-02 h2, #section-03 h2, #section-04 h2 { font-size: 64px; font-weight: 700; line-height: 1.35em; margin-bottom: 40px; }
+#section-02 h2 span, #section-03 h2 span, #section-04 h2 span { color: #00ADB5; }
+#section-02 p {  }
+.custom-section-02 { background: url(../assets/doodle1.png) no-repeat center center; }
+.read-more { color: #eee; font-weight: 700; text-decoration: none; transition: all.3s; }
+.read-more:hover { color: #00ADB5; }
+.custom-btn { display: inline-block; color: #eee; text-decoration: none; border-radius: 24px; padding: 10px 32px; font-size: 18px; font-weight: 700; text-shadow: 0 2px 4px #000; transition: all .3s; }
+.custom-btn:hover.custom-color-btn-dark, 
+.custom-color-btn { background: #00ADB5; }
+.custom-btn:hover.custom-color-btn, 
+.custom-color-btn-dark { background: #393E46; }
+.custom-color-btn-dark i { padding-left: 5px; }
+#section-03 { background: url(../assets/doodle3.png) repeat top left; padding-bottom: 40px; }
+#section-03 {  }
+#section-03 ul#myTab li a {  }
+#section-03 ul#myTab button { background: #393E46; margin-right: 20px; border: none; border-radius: 24px; padding: 10px 32px; font-size: 18px; font-weight: 700; color: #fff; text-shadow: 0 2px 4px #000; transition: all .3s; }
+#section-03 ul#myTab button:hover { background: #00ADB5; }
+#section-03 ul#myTab button.active { background: #00ADB5; }
+#section-03 ul#myTab button.active:hover { background: #393E46; }
+.custom-my-5 { margin-top: 100px; }
+#section-04 {  }
+#section-04 input, #section-04 textarea { background: #393E4680; border: none; border-radius: 15px; padding: 15px 25px; color: #eee; }
+#section-04 textarea { min-height: 300px; }
+#section-04 input::placeholder,
+#section-04 textarea::placeholder { color: #eee; }
+.custom-send-btn { color: #eee; background: #00ADB5; border-radius: 100px; padding: 10px 32px; transition: all .3s; }
+.custom-send-btn:hover { background: #393E46; }
+footer { border-top: 1px solid rgb(237 237 237 / 10%); }
+.custom-footer-menu-1 {}
+.custom-footer-menu-1 a { color: #eee; text-decoration: none; margin: 0 10px; transition: all .3s; }
+.custom-footer-menu-1 a:hover { color: #00ADB5; }
+.custom-footer-menu-2 { }
+.custom-footer-menu-2 a { background: #393E46; color: #eee; height: 48px; width: 48px; text-align: center; display: block; border-radius: 100%; font-size: 22px; padding-top: 8px; transition: all .3s; }
+.custom-footer-menu-2 a:hover { background: #00ADB5; }
+ul.custom-footer-menu-3 { margin: 0; padding: 0; list-style: none; display: inline-block; }
+ul.custom-footer-menu-3 li { display: inline-block; }
+ul.custom-footer-menu-3 li a { color: #eee; text-decoration: none; transition: all .3s; }
+ul.custom-footer-menu-3 li a:hover { color: #00ADB5; }
+
+@media (min-width: 768px) and (max-width: 1400px) {
+	#section-01 h1 { font-size: 54px; margin-bottom: 20px; }
+	#section-01 .container, #section-02 .container, #section-04 .container { padding-top: 0 !important; padding-bottom: 0 !important; }
+	.custom-btn { font-size: 14px; }
+	#section-02 h2, #section-03 h2, #section-04 h2 { font-size: 40px; }	
+	#section-03 ul#myTab button { margin-right: 10px; padding: 6px 18px; font-size: 14px; font-weight: 600; }
+	.custom-footer-menu-1 a { font-size: 14px; }
+	.custom-responsive-flex-row-reverse { text-align: center; display: block !important; }
+	#section-04 textarea { min-height: 120px; }
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+	#section-01 h1 { padding-top: 80px; }
+}
+
+@media (max-width: 767px) {
+	#section-01 h1 { font-size: 52px; text-align: center; margin-bottom: 20px; }
+	.custom-btn { font-size: 14px; }
+	#section-02 h2, #section-03 h2, #section-04 h2 { font-size: 28px; text-align: center; }	
+	#section-03 ul#myTab button { margin-right: 10px; padding: 6px 18px; font-size: 14px; font-weight: 600; }
+	.custom-footer-menu-1 a { font-size: 14px; }
+	.custom-responsive-flex-row-reverse { text-align: center; display: block !important; }
+	#section-04 textarea { min-height: 120px; }
+	#section-02 p { text-align: center; font-size: 16px; }
+}
